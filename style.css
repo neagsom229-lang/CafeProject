@@ -1,0 +1,120 @@
+/* GLOBAL */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.7;
+}
+nav{
+  background-color: #633c3c;
+}
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #222;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+  url('https://voca-land.sgp1.cdn.digitaloceanspaces.com/0/1757656933181/7b6bb5c3.jpg') center/cover no-repeat;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: auto;
+}
+
+.btn {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* SECTIONS */
+.section-padding {
+  padding: 80px 0;
+}
+
+/* ABOUT */
+.about-img {
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.about-img:hover {
+  transform: scale(1.03);
+}
+
+/* MENU CARDS */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.card img {
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+/* CONTACT */
+#contact p {
+  margin-bottom: 6px;
+}
+/* FOOTER */
+footer {
+  background-color: #1c1c1c;
+  color: #bbb;
+  padding: 40px 0;
+}
+
+footer h5 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+footer p,
+footer li {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #bbb;
+}
+
+footer hr {
+  border-color: #333;
+  margin: 20px 0;
+}
+
+footer small {
+  color: #888;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .section-padding {
+    padding: 60px 0;
+  }
+}
